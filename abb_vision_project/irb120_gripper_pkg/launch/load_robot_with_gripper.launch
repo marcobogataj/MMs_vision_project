@@ -1,0 +1,3 @@
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find irb120_gripper_pkg)/urdf/irb120_with_robotiq_STAR.xacro'" />
+</launch>

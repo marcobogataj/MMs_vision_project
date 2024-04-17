@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="irb120_with_gripper" >
+
+	<xacro:arg name="limited" default="true"/>
+
+  	<xacro:include filename="$(find abb_irb120_gazebo)/urdf/irb120_3_58_macro.xacro"/>	
+  	<xacro:abb_irb120_3_58_g prefix=""/>
+
+  	<!-- Fix robot to world -->
+  	<link name="world"/>
+  	<joint name="world-base_link-fixed" type="fixed">
+    	<parent link="world"/>
+    	<child link="base_link"/>
+  	</joint>
+
+	<!-- Robotiq gripper-->
+	<xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
+	<xacro:robotiq_85_gripper prefix="" parent="tool0">
+		<origin xyz="0 0 0" rpy="0 -${pi/2} 0" />
+
+	</xacro:robotiq_85_gripper>
+
+</robot>

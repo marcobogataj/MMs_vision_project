@@ -1,0 +1,6 @@
+<launch>
+    <arg name="type"/>
+    <arg name="name" default=""/>
+    <node name="zivid_camera" pkg="zivid_camera" type="zivid_camera_node" ns="zivid_camera" output="log"/>
+    <node name="$(arg name)" pkg="zivid_samples" type="$(arg type)" output="log"/>
+</launch>

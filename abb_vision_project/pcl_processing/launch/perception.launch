@@ -1,0 +1,10 @@
+<launch>
+    <node name="screw_perception" pkg="pcl_processing" type="screw_perception" respawn="true" />
+    
+
+    <arg name="type" default="sample_capture_assistant.py"/>
+
+    <include file="$(find zivid_samples)/launch/sample.launch">
+        <arg name="type" value="$(arg type)"/>
+    </include>
+</launch>

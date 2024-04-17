@@ -1,0 +1,11 @@
+path_constraint:
+  name: robot_constraints
+  constraints:
+  - type: position
+    frame_id: base_link
+    link_name: tool0
+    region:
+      x: [0    , 0.70] # [start, end]
+      y: [-0.60, 0.20] # [start, end]
+      z: [0    , 0.62] # [start, end]
+    weight: 1.0

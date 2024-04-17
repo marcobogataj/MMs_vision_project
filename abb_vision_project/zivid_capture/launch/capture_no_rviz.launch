@@ -1,0 +1,4 @@
+<launch>
+    <node name="zivid_camera" pkg="zivid_camera" type="zivid_camera_node" ns="zivid_camera" output="log"/>
+    <node name="capture_assistant" pkg="zivid_capture" type="capture_assistant" output="screen"/>
+</launch>
