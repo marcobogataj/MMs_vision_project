@@ -3,7 +3,7 @@ A ROS repository with the aim of performing the bin picking of screws/bolts, mor
 
 This work is the result of the master thesis by Marco Bogataj and Matteo Vitali at the Mechatronics and Mechanical Dynamics Lab (MDLAB) of the University of Bergamo located inside the Kilometro Rosso innovation district (2023/2024)
 
-![Robotic cell image](/images/robotic_cell_MDLAB.JPG)
+![Robotic cell image](/robotic_cell_MDLAB.JPG)
 
 ## Requirements
 
