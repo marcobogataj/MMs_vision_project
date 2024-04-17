@@ -5,8 +5,6 @@ This work is the result of the master thesis by Marco Bogataj and Matteo Vitali 
 
 ![Robotic cell image](/images/robotic_cell.png)
 
----
-
 ## Requirements
 
 ### ROS
@@ -63,7 +61,7 @@ roslaunch roslaunch irb120_robotiq_moveit_config moveit_planning_execution.launc
 
 ```
 
-To connect to the robot controller locate on the network at the IP -> XXX.XXX.XXX.X
+To connect to the robot controller locate on the network at the IP = XXX.XXX.XXX.X
 
 To simulate only, type:
 
