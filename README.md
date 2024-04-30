@@ -31,7 +31,7 @@ Both the robotic arm and the gripper require support packages to load robot URDF
 
 ## Installation
 
-Download the MM VISION PROJECT directory and copy it into the ROS src directory
+Download the `MMs_VISION_PROJECT` directory and copy it into the ROS `\src` directory
 
 Finally build the project using 
 
